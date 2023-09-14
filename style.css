@@ -72,3 +72,35 @@ body{
     display: inline;
     list-style-type: none;
 }
+/* booking */
+
+.fromAll{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+select{
+    width: 150px;
+    height: 30px;
+}
+#Departing, #Returning{
+    height: 26px;
+    width: 145px;
+}
+
+#Adult, #Child, #Infant{
+    height: 24px;
+    width: 45px;
+}
+#Currency{
+    width: 53px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px dashed rgb(200, 200, 200);
+    letter-spacing: 1px;
+}
+td,
+th {
+  border: 1px dashed rgb(190, 190, 190);
+}
